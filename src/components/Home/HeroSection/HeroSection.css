@@ -1,0 +1,66 @@
+.dp-home {
+	position: relative;
+	padding-top: 40px;
+	background-image: url(../../../images/chair-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	overflow-x: hidden;
+}
+.dp-home:before {
+	content: "";
+	position: absolute;
+	width: 31%;
+	right: 0;
+	top: 0;
+	height: calc(100% - 80px);
+	background: #3a4256;
+}
+
+.business-info .single-card .icon {
+	font-size: 60px;
+}
+.single-card {
+	border-radius: 5px;
+	display: grid;
+	grid-auto-flow: column;
+	align-items: center;
+	justify-content: center;
+	grid-gap: 30px;
+	padding: 20px;
+	color: #fff;
+	min-height: 140px;
+}
+
+.business-info [class^="col-"]:nth-child(odd) .single-card {
+	background: #1cc7c1;
+}
+
+.business-info [class^="col-"]:nth-child(even) .single-card {
+	background: #3a4256;
+}
+
+.main-content h1 {
+	font-size: 65px;
+	line-height: 96px;
+	font-weight: 600;
+	color: #203047;
+}
+
+.main-content p {
+	font-size: 20px;
+	line-height: 40px;
+	font-weight: 400;
+	color: #b4b4b4;
+}
+
+.main-content .btn-primary {
+	text-transform: uppercase;
+}
+
+@media (max-width: 1199px) {
+	.main-content h1 {
+		font-size: 55px;
+		line-height: 66px;
+	}
+}

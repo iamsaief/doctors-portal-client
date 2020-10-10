@@ -1,0 +1,19 @@
+.doctor-card h4 {
+	font: 600 27px/40px Poppins;
+	color: #3c3c3e;
+	margin-top: 8px;
+	margin-bottom: 0;
+}
+
+.doctor-card h5 {
+	font: 500 18px/27px Poppins;
+	letter-spacing: 0px;
+	color: #b3b2b5;
+}
+
+.doctor-card h5 i {
+	margin-right: 6px;
+	transform: rotate(100deg);
+	color: #5fc7c7;
+	font-size: 15px;
+}

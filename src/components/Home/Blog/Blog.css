@@ -1,0 +1,129 @@
+.blog-card {
+	background: #fff;
+	box-shadow: 0px 3px 6px rgb(150 98 221 / 16%);
+	border-radius: 7px;
+	transform: translateY(0);
+	transition: 0.2s linear;
+	position: relative;
+	overflow: hidden;
+}
+
+.blog-card:hover {
+	transform: translateY(-2px);
+	box-shadow: 0px 6px 12px 0px rgb(150 98 221 / 16%);
+	color: #fff;
+}
+
+.blog-card:after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: linear-gradient(90deg, #19d3ae 0%, #0fcfec 100%);
+	z-index: -1;
+	border-radius: 7px;
+	opacity: 0;
+	transition: 0.3s linear;
+}
+
+.blog-card:before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: url(../../../images/quote-icon-2.png);
+	z-index: 1;
+	background-repeat: no-repeat;
+	background-size: 65%;
+	background-position: 93% 37%;
+	opacity: 0;
+	transition: 0.3s linear;
+}
+
+.blog-card:hover:before,
+.blog-card:hover:after {
+	opacity: 1;
+}
+
+.blog-card .author-info,
+.blog-card .post-body {
+	position: relative;
+	z-index: 1;
+}
+
+.blog-card .author {
+	letter-spacing: 0px;
+	color: #3c3c3e;
+	margin-bottom: 5px;
+	transition: 0.2s linear;
+}
+
+.blog-card .date {
+	color: #b2b2b2;
+	margin-bottom: 0;
+	transition: 0.2s linear;
+}
+
+.blog-card .post-body h4 {
+	color: #3c3c3e;
+	margin-bottom: 0;
+	transition: 0.2s linear;
+}
+
+.blog-card .post-body h5 {
+	font: 400 18px/1.53 Poppins;
+	transition: 0.2s linear;
+}
+
+@media (min-width: 1200px) {
+	.blog-card .author {
+		font: 600 27px/40px Poppins;
+		margin-bottom: 0px;
+	}
+
+	.blog-card .date {
+		font: 500 23px/34px Poppins;
+	}
+
+	.blog-card .post-body h4 {
+		font: 600 31px/47px Poppins;
+	}
+
+	.blog-card .post-body h5 {
+		font: 400 28px/44px Poppins;
+	}
+}
+
+.blog-card:hover .author,
+.blog-card:hover .date,
+.blog-card:hover .post-body h4 {
+	color: #fff;
+}
+
+.blog-card .author-info,
+.blog-card .author-info img {
+	transition: 0.3s linear;
+	opacity: 1;
+}
+.blog-card:hover .author-info {
+	transform: translateX(-110px);
+}
+.blog-card:hover .author-info img,
+.blog-card:hover .post-body h5 {
+	opacity: 0;
+	visibility: hidden;
+}
+
+.blog-card .post-body .btn {
+	transform: translateY(0px);
+	transition: 0.3s linear;
+	opacity: 0;
+}
+.blog-card:hover .post-body .btn {
+	transform: translateY(-20px);
+	opacity: 1;
+}

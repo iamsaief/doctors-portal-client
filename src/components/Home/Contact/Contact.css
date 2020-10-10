@@ -1,0 +1,52 @@
+.contact {
+	position: relative;
+	background: linear-gradient(to right, rgb(58 66 86 / 95%), rgb(58 66 86 / 95%)),
+		url(/static/media/appointment-bg.6d22c084.jpg) no-repeat center center / cover;
+}
+.contact:before {
+	content: "";
+	position: absolute;
+}
+
+.form-control {
+	background: #ffffff;
+	box-shadow: 0px 3px 10px rgb(150 98 221 / 16%);
+	border: 1px solid #10d0ea;
+	border-radius: 4px;
+	font: 400 18px/1.4 Poppins;
+	color: #b4b3b6;
+	padding: 10px 20px;
+	height: 50px;
+}
+
+textarea.form-control {
+	height: 100px;
+}
+
+.form-control::placeholder {
+	color: #b4b3b6;
+}
+
+.form-group {
+	margin-bottom: 20px;
+}
+.contact-form {
+	max-width: 1140px;
+}
+@media (min-width: 1200px) {
+	.form-group {
+		margin-bottom: 40px;
+	}
+	.form-control {
+		font: 400 25px/38px Poppins;
+		height: 107px;
+		padding: 10px 40px;
+	}
+	textarea.form-control {
+		height: 272px;
+	}
+}
+
+.contact .btn-primary {
+	text-transform: uppercase;
+}
