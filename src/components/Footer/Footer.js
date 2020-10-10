@@ -61,11 +61,7 @@ const Footer = () => {
 				<div className="copyright text-center py-3 mt-5">
 					<p>
 						&copy; {new Date().getFullYear()} | build with <small>❤️</small> by{" "}
-						<a
-							href="http://https://www.linkedin.com/in/saiefalemon/"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
+						<a href="https://www.linkedin.com/in/saiefalemon/" target="_blank" rel="noopener noreferrer">
 							Saief Al Emon
 						</a>
 					</p>
