@@ -1,0 +1,18 @@
+.btn.appointment-submit,
+.btn.modal-close {
+	min-width: initial;
+	min-height: inherit;
+}
+.subtitle {
+	color: var(--primary);
+	text-align: center;
+	font: 500 30px/46px Poppins;
+}
+
+.appointment-form .form-control {
+	height: 50px;
+}
+
+.appointment-form .text-danger {
+	font-size: 14px;
+}

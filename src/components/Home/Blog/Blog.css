@@ -79,7 +79,7 @@
 	transition: 0.2s linear;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
 	.blog-card .author {
 		font: 600 27px/40px Poppins;
 		margin-bottom: 0px;

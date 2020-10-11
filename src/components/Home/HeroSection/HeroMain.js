@@ -8,7 +8,7 @@ const HeroMain = () => {
 				<div className="col-lg-5">
 					<div className="main-content px-xl-5 pb-5">
 						<h1>Your New Smile Starts Here</h1>
-						<p>
+						<p className="mt-3 mb-5">
 							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
 							been the industry’s standard dummy text ever since the
 						</p>

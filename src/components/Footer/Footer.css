@@ -54,7 +54,7 @@
 	padding: 10px 15px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1199px) {
 	.footer-list .list-item,
 	.copyright,
 	.copyright a {

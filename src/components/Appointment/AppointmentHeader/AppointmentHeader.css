@@ -1,0 +1,39 @@
+.appointment-header {
+	position: relative;
+	padding-top: 40px;
+	background-image: url(../../../images/chair-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	overflow-x: hidden;
+}
+
+.react-calendar {
+	width: 664px;
+	background: #ffffff 0% 0% no-repeat padding-box;
+	box-shadow: -10px 9px 21px rgb(128 152 213 / 0.07);
+	border-radius: 4px;
+	border: none;
+	padding: 30px;
+}
+
+.react-calendar__tile--now {
+	border-radius: 15px;
+}
+
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+	background: linear-gradient(135deg, #19d3ae, #0fcfec) !important;
+	color: white;
+	border-radius: 15px;
+}
+.react-calendar__tile:enabled:hover,
+.react-calendar__tile:enabled:focus {
+	background: linear-gradient(-135deg, #19d3ae, #0fcfec) !important;
+	color: white;
+	border-radius: 15px;
+}
+.react-calendar button:enabled:hover {
+	cursor: pointer;
+	border-radius: 15px;
+}

@@ -1,7 +1,8 @@
-.feature-service {
-}
 .feature-service h3 {
 	font-weight: 500;
 }
-.feature-service p {
+@media (max-width: 1199px) {
+	.feature-service .img-fluid {
+		max-height: 500px;
+	}
 }

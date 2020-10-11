@@ -8,7 +8,7 @@
 	position: absolute;
 }
 
-.form-control {
+.contact-form .form-control {
 	background: #ffffff;
 	box-shadow: 0px 3px 10px rgb(150 98 221 / 16%);
 	border: 1px solid #10d0ea;
@@ -19,30 +19,30 @@
 	height: 50px;
 }
 
-textarea.form-control {
+.contact-form textarea.form-control {
 	height: 100px;
 }
 
-.form-control::placeholder {
+.contact-form .form-control::placeholder {
 	color: #b4b3b6;
 }
 
-.form-group {
+.contact-form .form-group {
 	margin-bottom: 20px;
 }
 .contact-form {
 	max-width: 1140px;
 }
-@media (min-width: 1200px) {
-	.form-group {
+@media (min-width: 1400px) {
+	.contact-form .form-group {
 		margin-bottom: 40px;
 	}
-	.form-control {
+	.contact-form .form-control {
 		font: 400 25px/38px Poppins;
 		height: 107px;
 		padding: 10px 40px;
 	}
-	textarea.form-control {
+	.contact-form textarea.form-control {
 		height: 272px;
 	}
 }
