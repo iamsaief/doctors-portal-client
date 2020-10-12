@@ -21,8 +21,8 @@ const BusinessInfo = () => {
 	];
 
 	return (
-		<section className="container-fluid px-lg-5">
-			<div className="business-info px-lg-5 mx-lg-5">
+		<section className="container-fluid px-xl-5">
+			<div className="business-info px-xl-5 mx-xl-5">
 				<div className="row">
 					{infosData.map((info) => (
 						<InfoCard key={Math.random()} info={info}></InfoCard>

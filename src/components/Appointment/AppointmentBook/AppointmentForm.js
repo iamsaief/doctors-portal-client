@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Modal from "react-modal";
 import { useForm } from "react-hook-form";
 import "./AppointmentForm.css";
@@ -23,7 +23,10 @@ Modal.setAppElement("#root");
 
 const AppointmentForm = ({ modalIsOpen, openModal, closeModal, appointmentName, date }) => {
 	const { register, handleSubmit, errors } = useForm();
-	const onSubmit = (data) => console.log(data);
+	const onSubmit = (data) => {
+		console.log(data);
+		closeModal();
+	};
 
 	return (
 		<Modal isOpen={modalIsOpen} onRequestClose={closeModal} style={customStyles} contentLabel="Example Modal">

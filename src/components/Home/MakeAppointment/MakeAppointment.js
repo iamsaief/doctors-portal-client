@@ -1,6 +1,7 @@
 import React from "react";
 import "./MakeAppointment.css";
 import doctor from "../../../images/doctor.png";
+import { Link } from "react-router-dom";
 
 const MakeAppointment = () => {
 	return (
@@ -18,7 +19,9 @@ const MakeAppointment = () => {
 								It is a long established fact that a reader will be distractedly the readable content of
 								a page when looking at its
 							</p>
-							<button className="btn btn-primary">Learn more</button>
+							<Link to="/appointment">
+								<button className="btn btn-primary">Learn more</button>
+							</Link>
 						</div>
 					</div>
 				</div>
